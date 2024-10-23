@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dd7676d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flight-detail-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #cdc83b;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flight-detail-title {
+  font-size: 2.2rem;
+  color: #010609;
+  margin-bottom: 25px;
+}
+
+.flight-detail-content {
+  font-size: 1.3rem;
+  color: #f4fafc;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.flight-detail-content p {
+  margin: 12px 0;
+}
+
+.flight-detail-content p strong {
+  color: #04330f;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 25px;
+  color: #181bcf;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back-link:hover {
+  color: #2633be;
+  text-decoration: underline;
+}

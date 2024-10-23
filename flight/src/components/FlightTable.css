@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #763a9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flight-board-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: linear-gradient(145deg, #dfefe7, #c8ebfbdd);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgb(13, 13, 13);
+}
+
+.flight-board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9e4b93;
+  color: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.flight-board-header h1 {
+  font-size: 2rem;
+}
+
+.flight-board-header h2 {
+  font-size: 1.3rem;
+}
+
+.flight-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.flight-table th,
+.flight-table td {
+  padding: 15px;
+  border: 1px solid #bbe1fa;
+  text-align: center;
+}
+
+.flight-table th {
+  background-color: #7905e5;
+  color: #000000;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.flight-table td {
+  font-size: 0.95rem;
+  color: #380505;
+}
+
+.flight-table tr:nth-child(even) {
+  background-color: #fdc8f4;
+}
+
+.flight-table tr:hover {
+  background-color: #ff1eb4;
+  transition: background-color 0.2s ease;
+}
+
+.retry-button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  background-color: #b62ae1;
+  color: #1c0c0c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.retry-button:hover {
+  background-color: #2023ce;
+}
